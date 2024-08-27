@@ -1,3 +1,28 @@
+## Step to repeat STR
+
+- Clone repo then
+
+```
+- cd /stytch-client-testing-demo
+
+- npm i
+
+- npm run build
+
+- npm run start
+
+- npx jest src/app/page.test.tsx
+```
+
+At the top of the running test should see
+
+```
+  console.error
+    [Stytch] ReferenceError: fetch is not defined
+```
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
