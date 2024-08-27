@@ -1,5 +1,5 @@
 import { StytchProvider } from "@stytch/nextjs";
-import { createStytchUIClient } from "@stytch/nextjs/dist/index.ui";
+import { createStytchUIClient } from "@stytch/nextjs/ui";
 import { render } from "@testing-library/react";
 import Home from "./page";
 
